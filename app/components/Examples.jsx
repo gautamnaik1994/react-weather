@@ -11,7 +11,13 @@ var React = require('react');
 // });
 
 var Examples=(props)=>{
-    return(<h2>Examples</h2>);
+    return(
+        <div>
+         <h2>Examples</h2>
+         <h2>Welcome To Examples</h2>
+        </div>
+       
+        );
 };
 
 module.exports = Examples;
