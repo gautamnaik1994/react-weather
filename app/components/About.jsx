@@ -10,7 +10,11 @@ var React=require('react');
 
 var About =(props)=>{
     return(
-        <h2>About Component</h2>
+        <div>
+         <h1 className="text-center page-title">About Component</h1>
+         <p></p>
+        </div>
+       
     );
 };
 
